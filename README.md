@@ -1,10 +1,10 @@
 # ncmdump-Android
 
-网易云音乐下载工具的Android版本，采用现代化的技术栈进行重构。
+ncmdump-gui的Android版本，采用现代化的技术栈进行重构。
 
 ## 项目概述
 
-这是一个Android应用程序，用于下载网易云音乐的歌曲。该项目采用混合开发模式：
+这是一个基于 ncmdump-go 开发的Android应用程序。该项目采用混合开发模式：
 - **后端**: Android (Kotlin) + Java
 - **前端**: React + TypeScript + Vite
 - **UI框架**: Fluent UI React Components
@@ -87,9 +87,9 @@ npm run preview  # 预览生产构建
 
 ## 功能特性
 
-- 下载网易云音乐歌曲
-- 现代化的用户界面
-- 跨平台兼容性 (Android 8.0+)
+- 转换 ncm 格式为 mp3 或 flac 格式
+- ncmdump-gui的用户界面
+- 良好的兼容性 (Android 8.0+)
 
 ## 配置文件说明
 
@@ -103,13 +103,9 @@ npm run preview  # 预览生产构建
 
 请查看项目许可证信息
 
-## 贡献者
-
-czcqty (1250320117@zust.edu.cn)
-
 ## 开发者说明
 
-该项目是对原ncmdump项目的重大重构。采用了现代的开发实践和工具链，以提供更好的开发体验和代码维护性。
+该项目是对原ncmdump-gui项目的移植，以提供Android平台的支持
 
 ---
 
