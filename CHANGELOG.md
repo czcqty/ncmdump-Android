@@ -1,0 +1,1 @@
+# 项目文件提交说明\n\n该项目已进行主要重构。以下文件已重新整理：\n\n## 新增文档\n- README.md - 项目概述和快速开始指南\n- DEVELOPMENT.md - 详细的开发环境配置\n- CONTRIBUTING.md - 贡献指南\n- LICENSE - MIT许可证\n- SYNC_INSTRUCTIONS.md - Git同步说明\n\n## 项目结构\n- app/ - Android应用源代码和资源\n- frontend/ - React Web前端框架\n- gradle/ - Gradle构建工具包装器\n\n## 说明\n所有原有的过时代码和文档已被删除。该版本是从重构后的代码库开始的新起点。\n"

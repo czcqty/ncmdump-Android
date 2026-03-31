@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NcmDump" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#0078D4</item>
+        <item name="colorPrimaryVariant">#005A9E</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#1B2636</item>
+        <item name="android:navigationBarColor">#1B2636</item>
+    </style>
+</resources>
